@@ -1,0 +1,91 @@
+/* Responsive styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .button {
+        padding: 12px 24px;
+        font-size: 1.1rem;
+    }
+    
+    #score {
+        font-size: 1.8rem;
+    }
+    
+    #multiplier {
+        font-size: 1rem;
+    }
+    
+    #final-score-container {
+        font-size: 1.2rem;
+    }
+    
+    #final-score {
+        font-size: 1.6rem;
+    }
+    
+    #pause-button {
+        bottom: 30px;
+        right: 30px;
+        padding: 12px 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .track-info {
+        min-width: 250px;
+    }
+    
+    #current-track {
+        font-size: 1rem;
+    }
+    
+    #track-duration {
+        font-size: 0.8rem;
+    }
+    
+    #score-container {
+        top: 15px;
+        right: 15px;
+    }
+    
+    #score {
+        font-size: 1.5rem;
+    }
+    
+    #pause-menu {
+        padding: 20px;
+    }
+    
+    .menu-buttons .button {
+        margin: 5px;
+    }
+}
+
+/* Touch-specific styles */
+@media (hover: none) {
+    .button:hover {
+        background-color: rgba(0, 50, 100, 0.7);
+        box-shadow: none;
+    }
+    
+    .button:active {
+        background-color: rgba(0, 100, 180, 0.7);
+        box-shadow: 0 0 10px rgba(0, 170, 255, 0.7);
+    }
+    
+    .primary-button:active {
+        background-color: rgba(0, 120, 200, 0.7);
+    }
+}
+
